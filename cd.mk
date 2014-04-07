@@ -12,17 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/cyandream/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/cyandream/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/fireball/device_fireball.mk)
 
 # Device naming
 PRODUCT_DEVICE := fireball
-PRODUCT_NAME := cm_fireball
+PRODUCT_NAME := cd_fireball
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := Incredible 4G LTE
 PRODUCT_MANUFACTURER := HTC
